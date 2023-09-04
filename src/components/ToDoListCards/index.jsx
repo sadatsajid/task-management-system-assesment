@@ -64,7 +64,7 @@ const ToDoListCards = ({
           <Box ml={2} display="flex" alignItems="center">
             <Avatar sx={{ height: 20, width: 20, mr: 1 }} />
             <Typography variant="subtitle1">
-              Assigned Person: {assigned_person}
+              Assigned Person: Person {assigned_person}
             </Typography>
           </Box>
         </CardActions>
